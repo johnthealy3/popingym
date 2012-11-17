@@ -1,0 +1,89 @@
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+div {
+    border: 1px dotted black;
+}
+h2 {
+    margin: 5px 0 5px 10px;
+    font-size: 20px;
+}
+
+.container-fluid {
+	border-radius: 8px;
+    box-shadow: 2px 2px 5px #888888;
+    margin: 10px;
+    background: #FDFDF0;
+    padding: 10px;
+}
+#patient-name {
+    padding: 0 10px 10px 10px;
+}
+.section-icon {
+    height: 25px;
+    padding-bottom: 6px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.uber-warning {
+    font-weight: bold;
+    font-size: 125%;
+    color: red;
+}
+.field-title {
+    font-style: italic;
+}
+.address {
+    text-align: right;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.timeline-title {
+    color: white;
+    font-weight: bold;
+}
+.demo-block {
+    padding: 10px;
+}
+.timeline-block {
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+.progress {
+    margin: 10px 0;
+}
+.progress .bar {
+    background-color: whiteSmoke;
+    background-image: none;
+    float: left;
+    color: black;
+}
+.progress :first-child {
+    border-left: 3px solid black;
+    margin-left: 1%;
+}
+#last-tick {
+    border-right: none;
+}
+.progress .tick {
+    border-right: 3px solid;
+    border-color: black;
+}
+
+
+.problems {
+    background-color: #E3A522;
+    border-color: #E3A522 !important;
+}
+
+.procedures {
+    background-color: #569970;
+}
+
+.encounters {
+    background-color: #147A99;
+}
+
+.immunizations {
+    background-color: #8F298B;
+}
