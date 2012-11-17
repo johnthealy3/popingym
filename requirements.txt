@@ -22,8 +22,6 @@ pyserial==2.5
 pysmbc==1.0.10
 python-dateutil==1.4.1
 python-gflags==2.0
-python-virtkey==0.60.0
-pyxdg==0.19
 simplejson==2.1.6
 virtualenv==1.6.4
 wsgiref==0.1.2
