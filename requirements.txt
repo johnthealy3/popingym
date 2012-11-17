@@ -20,9 +20,7 @@ pyinotify==0.9.1
 pyparsing==1.5.6
 pyserial==2.5
 pysmbc==1.0.10
-python-apt==0.8.0ubuntu9
 python-dateutil==1.4.1
-python-debian==0.1.20ubuntu2
 python-gflags==2.0
 python-virtkey==0.60.0
 pyxdg==0.19
