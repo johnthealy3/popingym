@@ -8,11 +8,14 @@ h2 {
     margin: 5px 0 5px 10px;
     font-size: 20px;
 }
+.nav {
 
-.container-fluid {
+}
+.content {
+    position: relative;
 	border-radius: 8px;
     box-shadow: 2px 2px 5px #888888;
-    margin: 10px;
+    margin: 50px 10px 10px 10px;
     background: #FDFDF0;
     padding: 10px;
 }

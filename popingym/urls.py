@@ -6,9 +6,9 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^$', 'gymfinder.views.login', name='login'),   
-    url(r'^map/', 'gymfinder.views.map', name='map'),    
+    url(r'^$', 'gymfinder.views.map', name='map'),    
     url(r'^form/', 'gymfinder.views.loc', name='loc'),
+    url(r'^logout/$', 'django.contrib.auth.views.logout',{'next_page': '/'}),
     url(r'^singly/', include('singly.urls')),
     # url(r'^popingym/', include('popingym.foo.urls')),
 
