@@ -3,6 +3,8 @@ from django_google_maps import fields as map_fields
 from django import forms
 from crispy_forms.helper import FormHelper
 from crispy_forms.layout import Layout, Fieldset, ButtonHolder, Submit
+from django.contrib.auth.models import User
+import json
 
 class Location(models.Model):
     address = models.CharField(max_length=255, blank=True)
@@ -10,6 +12,11 @@ class Location(models.Model):
 
     def __unicode__(self):
         return self.latlng
+
+class Message(models.Model):
+    user = models.ForeignKey(User)
+    message_id = models.CharField(max_length=255)
+    message = models.CharField(max_length=8000)
 
 class Gym(models.Model):
     #address = map_fields.AddressField(max_length=200)

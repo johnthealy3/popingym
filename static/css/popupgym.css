@@ -1,5 +1,6 @@
 body {
     font-family: Tahoma, Geneva, sans-serif;
+    background-image: url('/static/img/bg_home.png');
 }
 div {
     border: 1px dotted black;
@@ -8,15 +9,19 @@ h2 {
     margin: 5px 0 5px 10px;
     font-size: 20px;
 }
-.nav {
-
+#title-block {
+    height: 300px;    
+}
+.value {
+    height: 200px;
+}
+.navbar-inner {
+    background-color: none;
+    background-image: none;
+    border: none;
 }
 .content {
-    position: relative;
-	border-radius: 8px;
-    box-shadow: 2px 2px 5px #888888;
     margin: 50px 10px 10px 10px;
-    background: #FDFDF0;
     padding: 10px;
 }
 #patient-name {

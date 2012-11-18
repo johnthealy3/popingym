@@ -10,6 +10,8 @@ urlpatterns = patterns('',
     url(r'^form/', 'gymfinder.views.loc', name='loc'),
     url(r'^logout/$', 'django.contrib.auth.views.logout',{'next_page': '/'}),
     url(r'^singly/', include('singly.urls')),
+    url(r'^feed/','gymfinder.views.get_fb_feed', name='feed'),
+    url(r'^show_feed/','gymfinder.views.show_feed', name='show_feed'),
     # url(r'^popingym/', include('popingym.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
